@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>AI Resume Screening</title>
+
+<link rel="stylesheet"
+href="{{ url_for('static', filename='style.css') }}">
+
+<link rel="stylesheet"
+href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+<div class="container mt-5">
+
+<h2>AI Resume Screening System</h2>
+
+<form action="/matcher" method="POST" enctype="multipart/form-data">
+
+<label>Job Description</label>
+
+<textarea class="form-control"
+name="job_description"
+rows="5"></textarea>
+
+<br>
+
+<label>Upload Resumes</label>
+
+<input type="file"
+name="resumes"
+multiple
+class="form-control">
+
+<br>
+
+<button class="btn btn-primary">
+Match Resumes
+</button>
+
+</form>
+
+</div>
+
+</body>
+</html>

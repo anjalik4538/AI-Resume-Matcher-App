@@ -90,11 +90,6 @@ python -m venv venv
 venv\Scripts\activate
 ```
 
-* Mac/Linux:
-
-```
-source venv/bin/activate
-```
 
 ### 4️⃣ Install dependencies
 
@@ -151,8 +146,7 @@ This project is open-source and available under the MIT License.
 **Anjali Kumari**
 
 * 💼 Aspiring Full Stack & AI Developer
-* 🔗 GitHub: https://github.com/your-username
-* 🔗 LinkedIn: https://linkedin.com/in/your-profile
+  
 
 ---
 

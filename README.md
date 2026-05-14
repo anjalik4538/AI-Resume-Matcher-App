@@ -31,10 +31,6 @@ AI Resume Matcher App is a web-based application that analyzes and compares mult
 
 **Machine Learning / NLP:**
 
-*BERT
-*Sentence Transformers
-*spaCy
-*NLTK
 * Scikit-learn (TF-IDF Vectorizer, Cosine Similarity)
 
 **Other Tools:**
